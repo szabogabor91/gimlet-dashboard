@@ -1,0 +1,9 @@
+app: gimlet-dashboard
+env: staging
+namespace: staging
+chart:
+    repository: https://chart.onechart.dev
+    name: onechart
+    version: 0.32.0
+values:
+    replicas: 5

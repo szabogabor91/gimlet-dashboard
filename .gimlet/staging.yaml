@@ -5,4 +5,6 @@ chart:
     repository: https://chart.onechart.dev
     name: onechart
     version: 0.32.0
-values: {}
+values:
+    image:
+        repository: nginx1
